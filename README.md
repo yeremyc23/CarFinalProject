@@ -39,12 +39,3 @@ Milestones
 Milestone 1: Before march 31st I want to have my code running, be able to fix all my bugs and issues.
 Milestone 2: I want to make sure there is no bugs with my code, making sure everything works smoothly.
 Milestone 3:I My third mile stone is to be able to reach at least my first stretch goals.
- 
- 
-
-
-
-
-
-
-
