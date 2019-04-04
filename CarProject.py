@@ -3,15 +3,19 @@ print("Welcome to Need for Speed!!!")
 horsepower = 0
 money = 100
 choice = None
-print('Main Menu')
+print('     \nMain Menu\n Press 1 to start ')
 while choice != "0":
-    choice = input("Add horsepower to what car?")
-    if choice == "0":
-        print("Quitted Game")
+    choice = input()
+    if choice =="1":
+        print("Welcome! Add horsepower to what car?")
     elif choice in Car:
-        inputs = int(input("How much?"))
+        Adding = int(input("How much?"))
+        if Adding <= money:
+            horsepower += Adding
+            money -= Adding
+        print(horsepower)
     else:
-        print("Incorrect input")
+        print("Incorrect")
 
-    print(horsepower)
+    print('Your car has', horsepower, 'and your have ', money, 'left')
 
